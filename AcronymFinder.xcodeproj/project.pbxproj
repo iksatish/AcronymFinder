@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		221BB2401C6AC119001A9C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB23F1C6AC119001A9C5A /* main.m */; };
 		221BB2431C6AC119001A9C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB2421C6AC119001A9C5A /* AppDelegate.m */; };
-		221BB2461C6AC119001A9C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB2451C6AC119001A9C5A /* ViewController.m */; };
+		221BB2461C6AC119001A9C5A /* IKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB2451C6AC119001A9C5A /* IKViewController.m */; };
 		221BB2491C6AC119001A9C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221BB2471C6AC119001A9C5A /* Main.storyboard */; };
 		221BB24B1C6AC119001A9C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221BB24A1C6AC119001A9C5A /* Assets.xcassets */; };
 		221BB24E1C6AC119001A9C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221BB24C1C6AC119001A9C5A /* LaunchScreen.storyboard */; };
+		221BB2581C6AC1F4001A9C5A /* IKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB2571C6AC1F4001A9C5A /* IKAPIClient.m */; };
+		221BB25C1C6AC312001A9C5A /* IKAcronymModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 221BB25B1C6AC312001A9C5A /* IKAcronymModel.m */; };
+		559D36988BA9C3F0CC37E9C5 /* libPods-AcronymFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B934C8BB07AC87944E9134 /* libPods-AcronymFinder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,19 @@
 		221BB23F1C6AC119001A9C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		221BB2411C6AC119001A9C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		221BB2421C6AC119001A9C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		221BB2441C6AC119001A9C5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		221BB2451C6AC119001A9C5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		221BB2441C6AC119001A9C5A /* IKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IKViewController.h; sourceTree = "<group>"; };
+		221BB2451C6AC119001A9C5A /* IKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKViewController.m; sourceTree = "<group>"; };
 		221BB2481C6AC119001A9C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		221BB24A1C6AC119001A9C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221BB24D1C6AC119001A9C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221BB24F1C6AC119001A9C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221BB2561C6AC1F4001A9C5A /* IKAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKAPIClient.h; sourceTree = "<group>"; };
+		221BB2571C6AC1F4001A9C5A /* IKAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKAPIClient.m; sourceTree = "<group>"; };
+		221BB25A1C6AC312001A9C5A /* IKAcronymModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKAcronymModel.h; sourceTree = "<group>"; };
+		221BB25B1C6AC312001A9C5A /* IKAcronymModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKAcronymModel.m; sourceTree = "<group>"; };
+		3198F82E611C6F2C95FD90B5 /* Pods-AcronymFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.release.xcconfig"; sourceTree = "<group>"; };
+		7BCDD5B985B9E743FEDF2C7F /* Pods-AcronymFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B934C8BB07AC87944E9134 /* libPods-AcronymFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcronymFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559D36988BA9C3F0CC37E9C5 /* libPods-AcronymFinder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				221BB23D1C6AC119001A9C5A /* AcronymFinder */,
 				221BB23C1C6AC119001A9C5A /* Products */,
+				40536D0AED710F203DBA04D5 /* Pods */,
+				82D5E78CEC2DC1272AECF083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +71,12 @@
 		221BB23D1C6AC119001A9C5A /* AcronymFinder */ = {
 			isa = PBXGroup;
 			children = (
+				221BB2591C6AC2F1001A9C5A /* APIModel */,
+				221BB2551C6AC1D0001A9C5A /* APIClient */,
 				221BB2411C6AC119001A9C5A /* AppDelegate.h */,
 				221BB2421C6AC119001A9C5A /* AppDelegate.m */,
-				221BB2441C6AC119001A9C5A /* ViewController.h */,
-				221BB2451C6AC119001A9C5A /* ViewController.m */,
+				221BB2441C6AC119001A9C5A /* IKViewController.h */,
+				221BB2451C6AC119001A9C5A /* IKViewController.m */,
 				221BB2471C6AC119001A9C5A /* Main.storyboard */,
 				221BB24A1C6AC119001A9C5A /* Assets.xcassets */,
 				221BB24C1C6AC119001A9C5A /* LaunchScreen.storyboard */,
@@ -79,6 +94,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		221BB2551C6AC1D0001A9C5A /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				221BB2561C6AC1F4001A9C5A /* IKAPIClient.h */,
+				221BB2571C6AC1F4001A9C5A /* IKAPIClient.m */,
+			);
+			name = APIClient;
+			sourceTree = "<group>";
+		};
+		221BB2591C6AC2F1001A9C5A /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				221BB25A1C6AC312001A9C5A /* IKAcronymModel.h */,
+				221BB25B1C6AC312001A9C5A /* IKAcronymModel.m */,
+			);
+			name = APIModel;
+			sourceTree = "<group>";
+		};
+		40536D0AED710F203DBA04D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BCDD5B985B9E743FEDF2C7F /* Pods-AcronymFinder.debug.xcconfig */,
+				3198F82E611C6F2C95FD90B5 /* Pods-AcronymFinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82D5E78CEC2DC1272AECF083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B934C8BB07AC87944E9134 /* libPods-AcronymFinder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 221BB2521C6AC119001A9C5A /* Build configuration list for PBXNativeTarget "AcronymFinder" */;
 			buildPhases = (
+				17167E2B3A0FB60E8587E315 /* Check Pods Manifest.lock */,
 				221BB2371C6AC119001A9C5A /* Sources */,
 				221BB2381C6AC119001A9C5A /* Frameworks */,
 				221BB2391C6AC119001A9C5A /* Resources */,
+				86A4B6E558D962FBA1FFEA67 /* Embed Pods Frameworks */,
+				0002B2683D6E816457F7E8C4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +197,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0002B2683D6E816457F7E8C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17167E2B3A0FB60E8587E315 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86A4B6E558D962FBA1FFEA67 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcronymFinder/Pods-AcronymFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		221BB2371C6AC119001A9C5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				221BB2461C6AC119001A9C5A /* ViewController.m in Sources */,
+				221BB2461C6AC119001A9C5A /* IKViewController.m in Sources */,
+				221BB2581C6AC1F4001A9C5A /* IKAPIClient.m in Sources */,
+				221BB25C1C6AC312001A9C5A /* IKAcronymModel.m in Sources */,
 				221BB2431C6AC119001A9C5A /* AppDelegate.m in Sources */,
 				221BB2401C6AC119001A9C5A /* main.m in Sources */,
 			);
@@ -261,6 +364,7 @@
 		};
 		221BB2531C6AC119001A9C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCDD5B985B9E743FEDF2C7F /* Pods-AcronymFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymFinder/Info.plist;
@@ -272,6 +376,7 @@
 		};
 		221BB2541C6AC119001A9C5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3198F82E611C6F2C95FD90B5 /* Pods-AcronymFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcronymFinder/Info.plist;
@@ -300,6 +405,7 @@
 				221BB2541C6AC119001A9C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
